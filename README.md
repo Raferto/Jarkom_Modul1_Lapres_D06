@@ -1,6 +1,6 @@
 # Jarkom_Modul1_Lapres_D06
 
- - **Rafid Ferdianto - 051118400000032**
+ - **Rafid Ferdianto - 05111840000032**
  - **Abdur Rohman - 05111840000100**
 
 ## Soal
