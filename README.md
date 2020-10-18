@@ -49,11 +49,11 @@ Untuk mencari file pdf kita bisa menggunakan `frame contains "application/pdf"
 Kemudian follow tcp stream dari paket yang ditemukan, kemudian save as raw data nya.
 ![Follow TCP Stream Raw Data](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/image18.png)
 Raw data di save sebagai .pdf. 
-![Follow TCP Stream Raw Data](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/image14.png)
+![Follow TCP Stream Raw Data](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/image29.png)
 
 11.  Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
     Capture filter yang digunakan adalah `port 21` yaitu untuk memfilter semua koneksi yang berasal dan menuju port 21.
-    ![Demo Capture FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/image14.png)
+    ![Demo Capture FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/image19.png)
 
 12.  Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
     Capture filter yang digunakan adalah `src port 80` yaitu untuk memfilter semua koneksi yang berasal dari port 80.
