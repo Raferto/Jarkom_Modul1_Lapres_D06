@@ -90,7 +90,7 @@ Terakhir buka Open This.pdf dengan password yang sudah didapat
 Untuk soal ini digunakan filter pertama untuk mencari file zip (dari hexacode penanda file zip) dan yang kedua untuk mencari file dengan Yes.pdf
 cukup gunakan filter sebagai berikut untuk mencari zip yang berisi file Yes.pdf
 
-![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s7.2.png)
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s7.4.png)
 
 Selanjutnya follow tcp stream untuk men-save file, save as raw
 
