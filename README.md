@@ -87,7 +87,8 @@ Terakhir buka Open This.pdf dengan password yang sudah didapat
 7. **Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.  
     Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"**
 
-Untuk soal ini cukup gunakan filter sebagai berikut untuk mencari zip yang berisi file Yes.pdf
+Untuk soal ini digunakan filter pertama untuk mencari file zip (dari hexacode penanda file zip) dan yang kedua untuk mencari file dengan Yes.pdf
+cukup gunakan filter sebagai berikut untuk mencari zip yang berisi file Yes.pdf
 
 ![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s7.1.png)
 
