@@ -10,7 +10,13 @@
 
  1. **Sebutkan webserver yang digunakan pada "[testing.mekanis.me](http://testing.mekanis.me/)"!**
 
-Jelasin fid
+Pada soal ini kita diminta untuk mencari tau apa web server yang digunakan pada website yang disebutkan diatas, kita dapat mengetahuinya dengan mengunakan filter sebagai berikut.
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s1.1.png)
+
+Selanjutnya kita hanya perlu memfollow dengan tcp stream, kemudian jika di scroll sedikit kita dapat mengetahui web server yang digunakan
+
+![TCP Stream](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s1.2.png)
 
 2. **Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!**
 
@@ -33,12 +39,16 @@ Kemudian klik kanan pada filed JPEG File Intercharged Format dan pilih Export Pa
 
 3.  **Cari username dan password ketika login di "[ppid.dpr.go.id](http://ppid.dpr.go.id/)"!**
 
-jawab
+Pada soal ini, kita dapat menggunakan filter sebagai berikut untuk mencari username dan password yang digunakan, yang selanjutnya tinggal dibuka dibagian HTML form untuk melihat username dan password yang digunakan
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s3.png)
     
 
 4. **Temukan paket dari web-web yang menggunakan basic authentication method!**
 
-jawab
+Untuk soal ini kita cukup menggunakan filter sebagai berikut, untuk menemukan paket-paket yang diinginkan
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s4.png)
 
 5. **Ikuti perintah di [aku.pengen.pw](http://aku.pengen.pw/)! Username dan password bisa didapatkan dari file .pcapng!**
 
@@ -54,21 +64,56 @@ kemudian tinggal kita ikuti perintah yang ada pada website itu'
 
 6. **Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).**
 
-pjunten
+Untuk soal ini, pertama cari dulu paket yang berisi Answer.zip dahulu dengan menggunakan filter sebagai berikut
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s6.1.png)
+
+Selanjutnya download Answer.zip dengan cara follow tcp stream kemudian save data as raw
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s6.2.png)
+
+Lalu cari paket yang berisi zipkey.txt untuk mendapatkan passwordnya, dengan filter sebagai berikut, yang kemudian di follow tcp stream, sehingga mendapatkan passwordnya
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s6.3.png)
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s6.4.png)
+
+Terakhir buka Open This.pdf dengan password yang sudah didapat
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s6.5.png)
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s6.6.png)
     
 7. **Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.  
     Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"**
 
-kerj
+Untuk soal ini cukup gunakan filter sebagai berikut untuk mencari zip yang berisi file Yes.pdf
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s7.1.png)
+
+Selanjutnya follow tcp stream untuk men-save file, save as raw
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s7.2.png)
+
+Terakhir buka zip(473) yang berisi Yes.pdf, dan buka pdf tersebut
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s7.3.png)
     
 8. **Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!**
 
-kerj
+untuk mendapatkan objek yang diinginkan, pertama cari terlebih dahulu IP Microsoft FTP Service, dengan filter sebagai berikut
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s8.1.png)
+
+Kemudian cari lagi dengan filter sebagai berikut dengan ip yang telah didapat
+
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s8.2.png)
     
 9. **Cari username dan password ketika login FTP pada localhost!**
 
-kerjain fid
+Untuk mendapatkan username dan password kita hanya perlu menggunakan filter sebagai berikut, dan User(user) beserta Pass(password) sudah dapat dilihat pada bagian info
 
+![Hasil FIlter](https://github.com/Raferto/Jarkom_Modul1_Lapres_D06/blob/main/images/s9.1.png)
  
 10. **Cari file .pdf di wireshark lalu download dan buka file tersebut!
 clue: "25 50 44 46"**
